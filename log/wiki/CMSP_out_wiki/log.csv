@@ -1,10 +1,13 @@
 dataset=wiki, loss_type=CMSP_out,
  alpha_p=1, alpha_d=1, alpha_m=1, margin=0.1
- loss_lr=0.0001, batch_size=128,  eb_size=512, seed=666, epoch=1, lr=0.0001, dropout=0.1
+ loss_lr=0.0001, batch_size=128,  eb_size=512, seed=666, epoch=2, lr=0.0001, dropout=0.1
 --------------------
-Epoch 0/1
+Epoch 0/2
 val epoch Loss = 0.05726125566190254
-Training complete in 0m 23s
-...Image to Text MAP = 0.4206416234854178
-...Text to Image MAP = 0.3932761683780813
-...Average MAP = 0.40695889593174955
+--------------------
+Epoch 1/2
+val epoch Loss = 0.04976996199304587
+Training complete in 0m 29s
+...Image to Text MAP = 0.46495451796862824
+...Text to Image MAP = 0.44776186260141004
+...Average MAP = 0.4563581902850191

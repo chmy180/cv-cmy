@@ -12,7 +12,7 @@ loss_lr: 0.0001
 lr: 0.0001
 
 batch_size: 128
-epoch: 1
+epoch: 2
 dropout: 0.1
 
 eb_size: 512
